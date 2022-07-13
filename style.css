@@ -1,0 +1,68 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #394263;
+    font-size: 13px;
+    background-color: #222222;
+}
+
+.full-bg {
+    min-height: 100%;
+    min-width: 1280px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.img-responsive{
+  display:block;
+  max-width: 100%;
+}
+
+.right-side{
+  min-height: 100% ;
+
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+
+  margin: 0px ;
+/* position: absolute !important; */
+padding: 0 7% ;
+width: 100% ;
+max-width: 400px ;
+box-shadow: 1px 0 20px rgb(0 0 0 / 8%) ;
+right:0;
+
+}
+
+
+.logo{
+  margin-top: 5%;
+}
+
+#form-login, .form-login{
+   margin-bottom:7% ;
+  padding: 20px 15px 1px;
+  border: 1px solid #dbe1e8;
+}
+
+
+.input-group {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.input-group-addon{
+  border: 1px solid #dbe1e8;
+  padding: 1% 5%;
+}
+
+.block-title{
+  border: 1px solid #dbe1e8;
+  padding: 2% 5%;
+background-color: #f9fafc;
+width: 100%;
+margin: 0;
+
+}
